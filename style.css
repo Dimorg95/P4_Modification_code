@@ -282,8 +282,9 @@ a:hover {
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
+  /*Nouveau*/
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #bloc-1-hero h1 {
@@ -717,6 +718,10 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  /*Nouveau*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -796,7 +801,8 @@ h4 {
 
 .tc-white {
   /*  color: #f3976c !important;*/
-  color: #ffffe0 !important;
+  color: white !important;
+  font-weight: 600;
 }
 
 .btn-atomic-tangerine {
