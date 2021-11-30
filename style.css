@@ -805,6 +805,14 @@ h4 {
   /*  color: #ffffff !important;*/
   color: #000000 !important;
 }
+/*Nouveau*/
+form .btn-form {
+  background: #a55037;
+  color: #fff !important;
+}
+form .btn-form:hover {
+  color: #ffff86 !important;
+}
 
 .btn-atomic-tangerine:hover {
   background: #a55037 !important;
