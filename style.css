@@ -911,8 +911,8 @@ form .btn-form:hover {
   }
   .bloc {
     /*constant*/
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
   }
   .bloc-group,
   .bloc-group .bloc {
@@ -922,8 +922,8 @@ form .btn-form:hover {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+    padding-left: constant(safe-area-inset-left, 20px);
+    padding-right: constant(safe-area-inset-right, 20px);
   }
 }
 
