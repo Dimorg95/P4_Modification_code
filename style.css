@@ -336,11 +336,23 @@ a:hover {
   text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
   background: transparent;
 }
-
+.nav > li a:focus {
+  background: transparent;
+  /*new*/
+  border: 2px solid rgba(88, 156, 216, 0.77);
+}
+/*nouveau*/
+a:focus,
+h1:focus,
+h2:focus,
+h3:focus,
+i:focus,
+img:focus {
+  border: 2px solid rgba(88, 156, 216, 0.77);
+}
 .navbar-toggle {
   margin: 10px 10px 0 0;
   border: 0px;
@@ -800,15 +812,13 @@ h4 {
 }
 
 .tc-white {
-  /*  color: #f3976c !important;*/
   color: white !important;
   font-weight: 600;
 }
 
 .btn-atomic-tangerine {
-  /*  background: #f3976c;*/
   background: #ffffe0;
-  /*  color: #ffffff !important;*/
+
   color: #000000 !important;
 }
 /*Nouveau*/
